@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="firstRuleImplicationGraph" max="32767" attributes="0"/>
+                  <Component id="firstSpeedChangeGraph" alignment="0" max="32767" attributes="0"/>
+                  <Component id="firstDistanceInputGraph" alignment="0" max="32767" attributes="0"/>
+                  <Component id="firstSpeedInputGraph" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="defuzzificationGraph" min="-2" pref="374" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="AggregationGraphButton" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="secondRuleImplicationGraph" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="secondSpeedChangeGraph" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="secondDistanceInputGraph" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="secondSpeedInputGraph" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="thirdSpeedChangeGraph" max="32767" attributes="0"/>
+                                  <Component id="ThirdDistanceInputGraph" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="thirdSpeedInputGraph" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="thirdRuleImplicationGraph" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="fourthSpeedChangeGraph" max="32767" attributes="0"/>
+                          <Component id="fourthDistanceInputGraph" alignment="0" max="32767" attributes="0"/>
+                          <Component id="fourthSpeedInputGraph" alignment="0" max="32767" attributes="0"/>
+                          <Component id="FourthRuleImplicationGraph" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="56" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="firstSpeedInputGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="secondSpeedInputGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thirdSpeedInputGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fourthSpeedInputGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="firstDistanceInputGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="secondDistanceInputGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ThirdDistanceInputGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fourthDistanceInputGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="firstSpeedChangeGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="secondSpeedChangeGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thirdSpeedChangeGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fourthSpeedChangeGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="firstRuleImplicationGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="secondRuleImplicationGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thirdRuleImplicationGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FourthRuleImplicationGraph" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="AggregationGraphButton" min="-2" pref="41" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="defuzzificationGraph" min="-2" pref="41" max="-2" attributes="0"/>
+              <EmptySpace pref="36" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="firstSpeedInputGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed Input 1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstSpeedInputGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="firstDistanceInputGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Distance Input 1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstDistanceInputGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="firstRuleImplicationGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Implication 1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstRuleImplicationGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="firstSpeedChangeGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed Change Output 1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstSpeedChangeGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="secondSpeedInputGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed Input 2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="secondSpeedInputGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="secondDistanceInputGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Distance Input 2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="secondDistanceInputGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="secondRuleImplicationGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Implication 2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="secondRuleImplicationGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="secondSpeedChangeGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed Change Output 2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="secondSpeedChangeGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="thirdRuleImplicationGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Implication 3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="thirdRuleImplicationGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="thirdSpeedChangeGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed Change Output 3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="thirdSpeedChangeGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ThirdDistanceInputGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Distance Input 3"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ThirdDistanceInputGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="thirdSpeedInputGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed Input 3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="thirdSpeedInputGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="fourthSpeedInputGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed Input 4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fourthSpeedInputGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="fourthDistanceInputGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Distance Input 4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fourthDistanceInputGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="fourthSpeedChangeGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed Change Output 4"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fourthSpeedChangeGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="FourthRuleImplicationGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Implication 4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FourthRuleImplicationGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="defuzzificationGraph">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Defuzzification"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="defuzzificationGraphActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AggregationGraphButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aggregation"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AggregationGraphButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

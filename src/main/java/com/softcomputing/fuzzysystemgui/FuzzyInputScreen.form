@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="speedLabel" min="-2" pref="64" max="-2" attributes="0"/>
+                  <Component id="firstSpeedRule" alignment="0" max="32767" attributes="0"/>
+                  <Component id="secondSpeedRule" alignment="0" max="32767" attributes="0"/>
+                  <Component id="thirdSpeedRule" alignment="0" max="32767" attributes="0"/>
+                  <Component id="fourthSpeedRule" alignment="0" max="32767" attributes="0"/>
+                  <Component id="speedInputCombobox" alignment="0" max="32767" attributes="0"/>
+                  <Component id="speedMembershipGraphButton" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="distanceMembershipGraphButton" max="32767" attributes="0"/>
+                  <Component id="distanceLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="firstDistanceRule" alignment="0" max="32767" attributes="0"/>
+                  <Component id="secondDistanceRule" alignment="0" max="32767" attributes="0"/>
+                  <Component id="thirdDistanceRule" alignment="0" max="32767" attributes="0"/>
+                  <Component id="fourthDistanceRule" alignment="0" max="32767" attributes="0"/>
+                  <Component id="distanceInputCombobox" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="speedChangeMembershipGraphButton" alignment="0" max="32767" attributes="0"/>
+                  <Component id="fourthRuleResult" alignment="0" max="32767" attributes="0"/>
+                  <Component id="thirdRuleResult" alignment="0" max="32767" attributes="0"/>
+                  <Component id="secondRuleResult" alignment="0" max="32767" attributes="0"/>
+                  <Component id="firstRuleResult" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="firstRuleOutput" min="-2" max="-2" attributes="0"/>
+                  <Component id="secondRuleOutput" min="-2" max="-2" attributes="0"/>
+                  <Component id="ThirdRuleOutput" min="-2" max="-2" attributes="0"/>
+                  <Component id="fourthRuleOutput" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
+              <Component id="analysisButton" min="-2" pref="242" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="speedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="distanceLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="speedInputCombobox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="distanceInputCombobox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="firstSpeedRule" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="firstDistanceRule" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="firstRuleOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="firstRuleResult" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="secondSpeedRule" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="secondDistanceRule" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="secondRuleOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="secondRuleResult" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="thirdSpeedRule" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thirdDistanceRule" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ThirdRuleOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="thirdRuleResult" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fourthSpeedRule" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fourthDistanceRule" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fourthRuleOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fourthRuleResult" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="speedMembershipGraphButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="distanceMembershipGraphButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="speedChangeMembershipGraphButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="42" max="32767" attributes="0"/>
+              <Component id="analysisButton" min="-2" pref="61" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="speedLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="speedInputCombobox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="distanceLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Distance"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="distanceInputCombobox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="firstSpeedRule">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Very Slow"/>
+            <StringItem index="1" value="Slow"/>
+            <StringItem index="2" value="Medium"/>
+            <StringItem index="3" value="Fast"/>
+            <StringItem index="4" value="Very Fast"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="firstDistanceRule">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Very Close"/>
+            <StringItem index="1" value="Close"/>
+            <StringItem index="2" value="Normal"/>
+            <StringItem index="3" value="Away"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="secondSpeedRule">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Very Slow"/>
+            <StringItem index="1" value="Slow"/>
+            <StringItem index="2" value="Medium"/>
+            <StringItem index="3" value="Fast"/>
+            <StringItem index="4" value="Very Fast"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="secondDistanceRule">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Very Close"/>
+            <StringItem index="1" value="Close"/>
+            <StringItem index="2" value="Normal"/>
+            <StringItem index="3" value="Away"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="thirdSpeedRule">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Very Slow"/>
+            <StringItem index="1" value="Slow"/>
+            <StringItem index="2" value="Medium"/>
+            <StringItem index="3" value="Fast"/>
+            <StringItem index="4" value="Very Fast"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="thirdDistanceRule">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Very Close"/>
+            <StringItem index="1" value="Close"/>
+            <StringItem index="2" value="Normal"/>
+            <StringItem index="3" value="Away"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="fourthSpeedRule">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Very Slow"/>
+            <StringItem index="1" value="Slow"/>
+            <StringItem index="2" value="Medium"/>
+            <StringItem index="3" value="Fast"/>
+            <StringItem index="4" value="Very Fast"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="fourthDistanceRule">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Very Close"/>
+            <StringItem index="1" value="Close"/>
+            <StringItem index="2" value="Normal"/>
+            <StringItem index="3" value="Away"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="firstRuleOutput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="secondRuleOutput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ThirdRuleOutput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="fourthRuleOutput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="and"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="then"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="and"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="then"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="and"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="then"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="and"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="then"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="firstRuleResult">
+    </Component>
+    <Component class="javax.swing.JTextField" name="secondRuleResult">
+    </Component>
+    <Component class="javax.swing.JTextField" name="thirdRuleResult">
+    </Component>
+    <Component class="javax.swing.JTextField" name="fourthRuleResult">
+    </Component>
+    <Component class="javax.swing.JButton" name="analysisButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ANALYZE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="analysisButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="speedMembershipGraphButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed Membership"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="speedMembershipGraphButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="distanceMembershipGraphButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Distance Membership"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="distanceMembershipGraphButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="speedChangeMembershipGraphButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speed Change Membership"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="speedChangeMembershipGraphButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
